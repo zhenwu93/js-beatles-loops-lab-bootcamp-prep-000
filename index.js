@@ -10,6 +10,6 @@ function johnLennonFacts(facts) {
   var exclamation = "!!!"
   while (facts < facts.length) {
     console.log(facts[] + exclamation);
+    return facts;
   }
-  return facts;
 }
