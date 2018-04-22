@@ -7,10 +7,9 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  var exclamation = "!!!"
-  let countdown = facts.length
-  while (facts < countdown) {
-    console.log(facts[--countdown] + exclamation);
-    return facts;
+  var i = 0
+  while (i < facts.length) {
+    console.log(facts[i] + "!!!");
+    i++;
   }
 }
